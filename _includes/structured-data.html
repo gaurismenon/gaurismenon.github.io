@@ -1,0 +1,10 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ site.author }}",
+  "url": "{{ site.url }}",
+  "email": "{{ site.email }}",
+  "sameAs": {{ site.social.links | jsonify }}
+}
+</script>

@@ -1,0 +1,45 @@
+# Site settings
+title: Gauri Menon
+author: Gauri Menon
+email: gaurismenon07@gmail.com
+description: >-
+  Gauri Menon's Personal Website
+baseurl: ""
+url: "https://gaurismenon.github.io"
+
+# SEO
+social:
+  name: Gauri Menon 
+  links:
+    - https://www.linkedin.com/in/yourusername/
+    - https://github.com/gaurismenon
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Collections
+collections:
+  projects:
+    output: true
+    # Optional: set a custom permalink structure for project items
+    # permalink: /projects/:path/
+
+# Optional: Google Analytics
+# google_analytics: UA-XXXXXXXXX-X
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .sass-cache/
+  - .jekyll-cache/
+  - README.md

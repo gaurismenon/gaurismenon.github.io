@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.4">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2025-12-24T20:07:03-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Gauri Menon</title><subtitle>Gauri Menon&apos;s Personal Website</subtitle><author><name>Gauri Menon</name></author><entry><title type="html">Sample Blog Post</title><link href="http://localhost:4000/2024/01/01/sample-post.html" rel="alternate" type="text/html" title="Sample Blog Post" /><published>2024-01-01T00:00:00-05:00</published><updated>2024-01-01T00:00:00-05:00</updated><id>http://localhost:4000/2024/01/01/sample-post</id><content type="html" xml:base="http://localhost:4000/2024/01/01/sample-post.html"><![CDATA[<h1 id="welcome-to-your-blog">Welcome to Your Blog</h1>
+
+<p>This is a sample blog post. You can write your thoughts, tutorials, or anything you’d like to share here.</p>
+
+<h2 id="markdown-support">Markdown Support</h2>
+
+<p>You can use all standard Markdown features:</p>
+
+<ul>
+  <li>Bullet points</li>
+  <li><strong>Bold text</strong></li>
+  <li><em>Italic text</em></li>
+  <li><a href="https://example.com">Links</a></li>
+  <li><code class="language-plaintext highlighter-rouge">Code snippets</code></li>
+</ul>
+
+<h3 id="code-blocks">Code Blocks</h3>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">def</span> <span class="nf">hello_world</span><span class="p">():</span>
+    <span class="nf">print</span><span class="p">(</span><span class="sh">"</span><span class="s">Hello, World!</span><span class="sh">"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h3 id="images">Images</h3>
+
+<p>You can also add images:</p>
+
+<div class="language-markdown highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">Alt text</span><span class="p">](</span><span class="sx">/assets/images/your-image.jpg</span><span class="p">)</span>
+</code></pre></div></div>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<p>To create a new blog post:</p>
+
+<ol>
+  <li>Create a new file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory</li>
+  <li>Name it with the format: <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-title.md</code></li>
+  <li>Add front matter (the content between the <code class="language-plaintext highlighter-rouge">---</code> lines at the top)</li>
+  <li>Write your content in Markdown</li>
+</ol>
+
+<p>Happy blogging!</p>]]></content><author><name>Gauri Menon</name></author><summary type="html"><![CDATA[This is a sample blog post to demonstrate the blog functionality.]]></summary></entry></feed>
