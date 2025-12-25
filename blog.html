@@ -4,22 +4,17 @@ title: Blog
 ---
 
 <div class="blog-list">
-    <p>My thoughts and writings.</p>
-
     {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
     
     {% if sorted_posts.size > 0 %}
         {% for post in sorted_posts %}
         <div class="blog-item">
-            <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-            <p class="post-date">{{ post.date | date: "%B %-d, %Y" }}</p>
-            
-            {% if post.excerpt %}
-            <p class="post-excerpt">{{ post.excerpt }}</p>
-            {% endif %}
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+            {% if post.excerpt %}<p>{{ post.excerpt }}</p>{% endif %}
         </div>
         {% endfor %}
     {% else %}
-        <p>No blog posts yet. Add your posts to the _posts directory!</p>
+        <p>No blog posts yet.</p>
     {% endif %}
 </div>

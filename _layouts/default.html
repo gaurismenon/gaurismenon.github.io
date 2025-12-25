@@ -21,7 +21,7 @@
     </script>
     {% endif %}
 </head>
-<body>
+<body{% if page.title == 'Home' %} class="home-page"{% endif %}>
     {% include header.html %}
 
     <main>

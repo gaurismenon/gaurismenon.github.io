@@ -4,21 +4,16 @@ title: Projects
 ---
 
 <div class="projects-list">
-    <p>Here are some of my projects.</p>
-
     {% assign sorted_projects = site.projects | sort: 'date' | reverse %}
     
     {% if sorted_projects.size > 0 %}
         {% for project in sorted_projects %}
         <div class="project-item">
-            <h2><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h2>
-            
-            {% if project.excerpt %}
-            <p class="project-excerpt">{{ project.excerpt }}</p>
-            {% endif %}
+            <h3><a href="{{ project.url | relative_url }}">{{ project.title }}</a></h3>
+            {% if project.excerpt %}<p>{{ project.excerpt }}</p>{% endif %}
         </div>
         {% endfor %}
     {% else %}
-        <p>No projects yet. Add your projects to the _projects directory!</p>
+        <p>No projects yet.</p>
     {% endif %}
 </div>
